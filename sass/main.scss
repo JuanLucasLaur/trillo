@@ -3,3 +3,15 @@
 
 /* Import base */
 @import "base/base";
+
+/* Import components */
+@import "components/logo";
+@import "components/search-box";
+
+/* Import layout */
+@import "layout/container";
+@import "layout/header";
+@import "layout/sidebar";
+
+/* Import pages */
+@import "pages/home";
