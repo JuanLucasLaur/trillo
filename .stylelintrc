@@ -1,0 +1,15 @@
+{
+  "extends": [
+    "stylelint-config-sass-guidelines",
+    "stylelint-prettier/recommended"
+  ],
+  "plugins": ["stylelint-prettier"],
+  "ignoreFiles": [
+    "css/**/*.css"
+  ],
+  "rules": {
+    "color-named": null,
+    "max-nesting-depth": null,
+    "prettier/prettier": true
+  }
+}
