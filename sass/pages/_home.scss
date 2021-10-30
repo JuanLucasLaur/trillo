@@ -1,9 +1,35 @@
 /* Home */
 .content {
   display: flex;
+
   .hotel-view {
     background-color: #fff;
     flex: 1;
     min-height: 80rem;
+
+    .overview {
+      align-items: center;
+      border-bottom: 1px solid var(--color-gray-lighter);
+      display: flex;
+
+      &__heading {
+        font-size: 2rem;
+        font-weight: 300;
+        letter-spacing: 1px;
+        padding: 1.5rem 3rem;
+        text-transform: uppercase;
+      }
+
+      &__icon {
+        fill: var(--color-primary);
+        height: 2rem;
+        width: 2rem;
+      }
+
+      &__stars-container {
+        display: flex;
+        margin-right: auto;
+      }
+    }
   }
 }
