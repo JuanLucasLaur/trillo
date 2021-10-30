@@ -12,5 +12,8 @@
   --color-gray-darker: #777; // dark 2
   --color-gray-darkest: #333; // dark 1
 
+  --shadow-light: 0 2rem 5rem rgba(0, 0, 0, 0.1);
   --shadow-dark: 0 2rem 6rem rgba(0, 0, 0, 0.3);
+
+  --border-gray: 1px solid var(--color-gray-lighter);
 }
