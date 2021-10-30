@@ -10,6 +10,7 @@
   "rules": {
     "color-named": null,
     "max-nesting-depth": null,
-    "prettier/prettier": true
+    "prettier/prettier": true,
+    "selector-max-compound-selectors": null
   }
 }

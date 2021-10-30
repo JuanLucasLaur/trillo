@@ -26,6 +26,38 @@
         width: 2rem;
       }
 
+      &__location {
+        display: flex;
+        font-size: 1.5rem;
+        vertical-align: center;
+
+        .overview__icon {
+          margin-right: 0.5rem;
+        }
+      }
+
+      &__rating {
+        align-items: center;
+        align-self: stretch;
+        background-color: var(--color-primary);
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 3rem;
+        padding: 0 2rem;
+      }
+
+      &__rating-average {
+        font-size: 2rem;
+        font-weight: 300;
+      }
+
+      &__rating-count {
+        font-size: 1rem;
+        text-transform: uppercase;
+      }
+
       &__stars-container {
         display: flex;
         margin-right: auto;
