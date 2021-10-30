@@ -63,27 +63,39 @@
         margin-right: auto;
       }
     }
-  }
 
-  .detail {
-    background-color: var(--color-gray-lightest);
-    border-bottom: var(--border-gray);
-    display: flex;
-    font-size: 1.4rem;
-    padding: 4.5rem;
-  }
+    .description {
+      box-shadow: var(--shadow-light);
+      flex: 0 0 60%;
+      margin-right: 4.5rem;
+      padding: 3rem;
+    }
 
-  .description {
-    box-shadow: var(--shadow-light);
-    flex: 0 0 60%;
-    margin-right: 4.5rem;
-    padding: 3rem;
-  }
+    .detail {
+      background-color: var(--color-gray-lightest);
+      border-bottom: var(--border-gray);
+      display: flex;
+      font-size: 1.4rem;
+      padding: 4.5rem;
+    }
 
-  .user-reviews {
-    align-items: center;
-    display: flex;
-    flex: 1;
-    flex-direction: column;
+    .user-reviews {
+      align-items: center;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+    }
+
+    .cta {
+      padding: 3.5rem 0;
+      text-align: center;
+
+      &__book-now {
+        font-size: 1.5rem;
+        font-weight: 300;
+        margin-bottom: 2.5rem;
+        text-transform: uppercase;
+      }
+    }
   }
 }
