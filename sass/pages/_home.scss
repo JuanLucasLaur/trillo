@@ -9,7 +9,7 @@
 
     .overview {
       align-items: center;
-      border-bottom: 1px solid var(--color-gray-lighter);
+      border-bottom: var(--border-gray);
       display: flex;
 
       &__heading {
@@ -63,5 +63,24 @@
         margin-right: auto;
       }
     }
+  }
+
+  .detail {
+    background-color: var(--color-gray-lightest);
+    border-bottom: var(--border-gray);
+    display: flex;
+    padding: 4.5rem;
+  }
+
+  .description {
+    box-shadow: var(--shadow-light);
+    flex: 0 0 60%;
+    font-size: 1.4rem;
+    margin-right: 4.5rem;
+    padding: 3rem;
+  }
+
+  .user-reviews {
+    flex: 1;
   }
 }
