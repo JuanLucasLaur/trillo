@@ -69,18 +69,21 @@
     background-color: var(--color-gray-lightest);
     border-bottom: var(--border-gray);
     display: flex;
+    font-size: 1.4rem;
     padding: 4.5rem;
   }
 
   .description {
     box-shadow: var(--shadow-light);
     flex: 0 0 60%;
-    font-size: 1.4rem;
     margin-right: 4.5rem;
     padding: 3rem;
   }
 
   .user-reviews {
+    align-items: center;
+    display: flex;
     flex: 1;
+    flex-direction: column;
   }
 }
