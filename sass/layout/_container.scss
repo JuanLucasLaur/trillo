@@ -2,6 +2,11 @@
   background-color: var(--color-gray-lightest);
   box-shadow: var(--shadow-dark);
   margin: 8rem auto;
-  max-width: 120rem;
+  max-width: 128rem;
   min-height: 50rem;
+
+  @include responsive-breakpoint(breakpoint-largest) {
+    margin: 0;
+    max-width: 100%;
+  }
 }
