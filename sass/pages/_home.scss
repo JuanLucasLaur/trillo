@@ -2,6 +2,10 @@
 .content {
   display: flex;
 
+  @include responsive-breakpoint(breakpoint-medium) {
+    flex-direction: column;
+  }
+
   .hotel-view {
     background-color: #fff;
     flex: 1;
@@ -18,6 +22,11 @@
         letter-spacing: 1px;
         padding: 1.5rem 3rem;
         text-transform: uppercase;
+
+        @include responsive-breakpoint(breakpoint-small) {
+          font-size: 1.8rem;
+          padding: 1rem 2rem;
+        }
       }
 
       &__icon {
@@ -46,16 +55,28 @@
         justify-content: center;
         margin-left: 3rem;
         padding: 0 2rem;
+
+        @include responsive-breakpoint(breakpoint-small) {
+          padding: 0 1.5rem;
+        }
       }
 
       &__rating-average {
         font-size: 2rem;
         font-weight: 300;
+
+        @include responsive-breakpoint(breakpoint-small) {
+          font-size: 1.8rem;
+        }
       }
 
       &__rating-count {
         font-size: 1rem;
         text-transform: uppercase;
+
+        @include responsive-breakpoint(breakpoint-small) {
+          font-size: 0.5rem;
+        }
       }
 
       &__stars-container {
@@ -69,6 +90,15 @@
       flex: 0 0 60%;
       margin-right: 4.5rem;
       padding: 3rem;
+
+      @include responsive-breakpoint(breakpoint-medium) {
+        margin-right: 3rem;
+        padding: 2rem;
+      }
+
+      @include responsive-breakpoint(breakpoint-small) {
+        margin: 0 0 3rem;
+      }
     }
 
     .detail {
@@ -77,6 +107,14 @@
       display: flex;
       font-size: 1.4rem;
       padding: 4.5rem;
+
+      @include responsive-breakpoint(breakpoint-medium) {
+        padding: 3rem;
+      }
+
+      @include responsive-breakpoint(breakpoint-small) {
+        flex-direction: column;
+      }
     }
 
     .user-reviews {
@@ -89,6 +127,10 @@
     .cta {
       padding: 3.5rem 0;
       text-align: center;
+
+      @include responsive-breakpoint(breakpoint-medium) {
+        padding: 2.5rem 0;
+      }
 
       &__book-now {
         font-size: 1.5rem;

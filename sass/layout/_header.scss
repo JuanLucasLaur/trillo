@@ -8,6 +8,12 @@
   height: 7rem;
   justify-content: space-between;
 
+  @include responsive-breakpoint(breakpoint-smallest) {
+    align-content: space-around;
+    flex-wrap: wrap;
+    height: 10rem;
+  }
+
   .top-nav {
     align-items: center;
     align-self: stretch;

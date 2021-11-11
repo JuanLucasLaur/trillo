@@ -15,6 +15,10 @@ html {
   box-sizing: border-box;
   // Set default root font-size to 10px (62.5% of 16px) to make it easier to work with rems for responsiveness
   font-size: 62.5%;
+
+  @include responsive-breakpoint(breakpoint-large) {
+    font-size: 50%;
+  }
 }
 
 body {

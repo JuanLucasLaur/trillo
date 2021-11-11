@@ -5,6 +5,12 @@
   flex: 0 0 40%;
   justify-content: center;
 
+  @include responsive-breakpoint(breakpoint-smallest) {
+    background-color: var(--color-gray-lighter);
+    flex: 0 0 100%;
+    order: 1;
+  }
+
   &__input {
     background-color: var(--color-gray-lighter);
     border: 0;

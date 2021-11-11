@@ -6,6 +6,11 @@
   padding: 3rem;
   position: relative;
 
+  @include responsive-breakpoint(breakpoint-medium) {
+    margin-bottom: 3rem;
+    padding: 2rem;
+  }
+
   &__text {
     margin-bottom: 2rem;
     position: relative;
